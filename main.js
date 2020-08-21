@@ -41,4 +41,51 @@
 
 /* Math.random */
 /* Número aleatorio entre 0 y 1 */
-// Math.random() * 10
+// Math.random() * 10;
+
+/* STRINGS */
+
+/* Propiedad */
+/* Cuántos carácteres tiene */
+// .length
+
+/* Métodos */
+
+/* Sin parámetros */
+
+/* .trim() */
+/* Quitar espacios al principio y al final */
+// '   hola '.trim(); -> 'hola
+
+/* .toUpperCase() */
+/* Convertir a mayúsculas */
+// greet.toUpperCase(); -> 'HOLA'
+
+/* .toLoweCase() */
+/* Convertir a minúsculas */
+// greet.toLoweCase(); -> 'hola'
+
+/* Encontrar carácteres */
+
+/* indexOf() */
+/* en qué posición se encuentra */
+//let nombre = 'joni
+// nombre.indexOf('j'); -> 0
+/* se le puede pasar un parámetro para saber desde cuál contar */
+// indexOf(var, posición);
+
+/* lastIndexOf() */
+/* empieza a contar desde atrás */
+// 'Hola amigos'.lastIndexOf('o');
+
+/* includes */
+/* si el texto incluye cierta cadena de tesxto */ 
+// 'jonathan'.includes('than'); -> true
+
+/* startsWith */
+/* Si comienza con */
+// 'Jonathan'.starsWith('J'); -> true
+
+/* endsWith */
+/* Si termina con */
+// 'Jonathan'.endsWith('j');  -> false
