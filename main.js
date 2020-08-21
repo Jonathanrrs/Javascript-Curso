@@ -89,3 +89,31 @@
 /* endsWith */
 /* Si termina con */
 // 'Jonathan'.endsWith('j');  -> false
+
+
+/* MANIPULAR STRINGS */
+
+/* replace */
+/* agarra un texto y lo reemplaza por otro */
+// 'hola mundo'.replace('mundo', 'world'); -> hola world
+
+/* split */
+/* separar un texto segúnn el separador que se ponga */
+// 'jonathan'.split('t'); -> ['jona, 'han]
+
+
+/* substring */
+/* separar el texto desde el parametro start y trae lo que sigue */
+/* si es end es negativo extrae hacia atrás */
+// 'hola mundo'.substring(4); -> ' mundo'
+
+/* substr */
+/* busca la cantidad */
+/* di start es negativo, empieza a extraer desde atrás */
+// 'hola mundo'.substr(2,5); -> 'la mu'
+
+/* slice */
+/* la diferencia es cuando hay valores negativos */
+/* end negativo no toma los ultimos [end] valores */
+/* start negativo: empieza a contar desde el final */
+// 'hola mundo'.slice(-5, -2); -> mun
